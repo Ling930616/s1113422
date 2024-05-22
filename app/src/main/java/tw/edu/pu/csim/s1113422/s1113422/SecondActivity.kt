@@ -19,7 +19,7 @@ class SecondActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             S1113422Theme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                Scaffold( modifier = Modifier.fillMaxSize() ) { innerPadding ->
                     Greeting2(
                         name = "Android",
                         modifier = Modifier.padding(innerPadding)
